@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Бар Димона</title>
+ 	<style type="text/css">
+ 		.text{
+ 				font-family: 'Oswald', sans-serif;
+ 				background-color: #FFDB00;
+ 				padding: 30px;
+ 				margin-left: 20%;
+ 				margin-right: 20%;
+ 				border-radius: 20px;
+ 				text-shadow: 2px 6px 7px  #9C72E0;
+ 				border: 4px ridge #9C72E0;
+ 				background-image: -webkit-linear-gradient(bottom, #FFDB00, #9C72E0);
+ 				background-image: -o-linear-gradient(bottom, #FFDB00, #9C72E0);
+ 				background-image: linear-gradient(20deg, #FFDB00,#008080); 
+ 				}
+ 	</style>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
+</head>
+<body lang="ru">
+	<header align="center">
+	<h1 id="title_text">Привет, Друг!<br> Что будем пить? </h1>
+	</header>
+<aside><p align="center"><i><b>Пейте с умом, Ребятки!) </b></i></p></aside>
+	<main>
+<div class="text" align="center">
+		<div > <!-- Выпадающее меню -->
+	<select>
+		<option>Вина</option>
+		<option selected>Койктельчик</option>
+		<option>Покрепче</option>
+	</select>
+		</div>
+	<div> 
+		<p >Добавить льда?<br>
+		<label><input type="radio"  name="ice" value="ice+" checked> Добавь</label>
+		<label><input type="radio" name="ice" value="ice-" disabled> Не надо</label></p><br>
+		<span id="licens"><lablel><p><input type="checkbox" name="" value="">Принимаю условия <a href=""> клуба алкашей</a></p></lablel></span>
+		<span><button  id="button" type="submit" name=""><strong>Наливай</strong></button></span>
+	</div> 
+</div>	
+	<canvas id="nalej"></canvas>
+		<div class="img" align="center"><img src="Img/Old_F.gif" alt="" title="" width="300px"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+
+</main>
+<footer align="center"> Producent for MeLittle Pony</footer>
+</html>
