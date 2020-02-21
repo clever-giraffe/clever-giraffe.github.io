@@ -1,9 +1,37 @@
 body {
-	background-color: #BCE4E4:
+	background-color: #BCE4E4;
+	font-family: 'Oswald', sans-serif;
+}
+body#about{
+	background-image: linear-gradient(90deg, #BCE4E4, #ffffff);
+	background-image: -o-linear-gradient(45deg, #BCE4E4, #ffffff);
+	background-image: -webkit-linear-gradient(bottom, #BCE4E4, #ffffff);
+	background-size: 100%;
+	
+}
+div#nav_bar{
+	display: inline;
+}
+body div nav{
+	display: inline;
+	
+}
+body div nav ul{
+	list-style-type: none;
+	display: inline;
+}
+body div nav ul li{
+	display: inline;
+}
+
+body div nav ul li a:hover {
+color: red;
+}
+a:hover {
+color: green;
 }
 aside{
-	float: left;
-	padding-right: 20px
+	padding-right: 20px;
 	padding-left: 20px;
 	width: 16%;
 	height: 200px;
@@ -13,9 +41,20 @@ aside{
 	position: relative;
 	padding-left: 20px;
 	font-family: 'Oswald', bold;
+}
+aside.as_l{
+	float: left;
+}
+aside.as_r{
+	background-color: #000000;
+	float: right;
+}
+aside.as_r p{
+	color: #fff;
+	padding: 10px;
 
 }
-#title_text{
+.title_text{
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	text-shadow: 3px 10px 15px black;
@@ -32,7 +71,6 @@ aside{
 #button {
 	background-color: #9C72E0;
 	border-radius: 20px; 
-	/* margin: 10px 10px 10px 10px; */
 }
 #licens{
 	font-size: 13px;
