@@ -5,35 +5,32 @@
 	<title>Бар Димона</title>
  	<style type="text/css">
  		.text{
- 				font-family: 'Oswald', sans-serif;
- 				background-color: #FFDB00;
- 				padding: 30px;
- 				margin-left: 20%;
- 				margin-right: 20%;
- 				border-radius: 20px;
- 				text-shadow: 2px 6px 7px  #9C72E0;
- 				border: 4px ridge #9C72E0;
- 				background-image: -webkit-linear-gradient(bottom, #FFDB00, #9C72E0);
- 				background-image: -o-linear-gradient(bottom, #FFDB00, #9C72E0); 
- 				background-image: linear-gradient(20deg, #FFDB00,#008080); 
- 				}
+ 			background-color: #FFDB00;
+ 			padding: 30px;
+ 			margin-left: 20%;
+ 			margin-right: 20%;
+ 			border-radius: 20px;
+ 			text-shadow: 2px 6px 7px  #9C72E0;
+ 			border: 4px ridge #9C72E0;
+ 			background-image: -webkit-linear-gradient(bottom, #FFDB00, #9C72E0);
+ 			background-image: -o-linear-gradient(bottom, #FFDB00, #9C72E0); 
+ 			background-image: linear-gradient(20deg, #FFDB00,#008080); 
+ 			}
  	</style>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link rel="stylesheet" type="text/javascript" href="JS/script.js">
 	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
 </head>
 <body lang="ru">
-<div id="nav_bar">	<!-- Верхнее меню -->
+<div class="nav_bar">								<!-- Навигация -->
 	<nav align="left">
 		<ul>
 			<li><a href="#title_text" title="">Title</a></li>
 			<li><a href="about.html" title="">About</a></li>
-			<!-- <li><a href="#nowhere" title="Morbi in sem quis dui placerat ornare">Morbi</a></li>
-			<li><a href="#nowhere" title="Praesent dapibus, neque id cursus faucibus">Praesent</a></li>
-			<li><a href="#nowhere" title="Pellentesque fermentum dolor">Pellentesque</a></li> -->
-		</ul>
+			<input type="text" name="search" placeholder="Чо надо??">
+			<button type="submit" value="search">S<img src=""></button>
 	</nav>
-	<div><input type="text" name="search" placeholder="Чо надо??"><button type="submit" value="search">S</button><p></p>
+	<div><p></p>
 	</div>
 </div>
 	<header align="center">
@@ -41,25 +38,41 @@
 	</header>
 <aside class="as_l"><p align="center"><i><b>Пейте с умом, Ребятки!) </b></i></p></aside>
 <aside class="as_r"><p><strong>Этот текст роли не играет.</strong> Ты всё равно его не будешь читать</p></aside>
-	<main>
-<div class="text" align="center">
-		<div > <!-- Выпадающее меню -->
-	<select>
-		<option>Вина</option>
-		<option selected>Койктельчик</option>
-		<option>Покрепче</option>
+<main>
+	<div class="text" align="center">
+<div > 												<!-- Меню выбора напитка -->
+	<select name="drink">
+		<option value="wine">Вина</option>
+		<option value="coctail" selected>Койктельчик</option>
+		<option value="shot">Покрепче</option>
 	</select>
-		</div>
+</div>
 	<div> 
 		<p >Добавить льда?<br>
 		<label><input type="radio"  name="ice" value="ice+" checked> Добавь</label>
 		<label><input type="radio" name="ice" value="ice-" disabled> Не надо</label></p><br>
-		<span id="licens"><lablel><p><input type="checkbox" name="" value="">Принимаю условия <a href=""> клуба алкашей</a></p></lablel></span>
+		<span id="licens"><lablel><p><input type="checkbox" name="" value="accept">Принимаю условия <a href=""> клуба алкашей</a></p></lablel></span>
 		<span><button  id="button" type="submit" name="" href=""><strong>Наливай</strong></button></span>
 	</div> 
 </div>	
-	<div class="img" align="center"><img src="Img/Old_F.gif" alt="" title="" width="300px"></div>
-	<div></div>
+	<!-- <div class="img" align="center"><img src="Img/Old_F.gif" alt="" title="" width="300px"></div> -->
+<div>
+	<script type="text/javascript" src="JS/script.js"></script>
+		<div>
+			<picture title="wine">
+				<source src="" type=""><img src="Img/">
+				<source src="" type=""><img src="Img/">
+			</picture>
+			<picture title="coctail">
+				<source src="" type=""><img src="Img/">
+				<source src="" type=""><img src="Img/">
+			</picture>
+			<picture title="shot">
+				<source src="" type=""><img src="Img/">
+				<source src="" type=""><img src="Img/">
+			</picture>
+		</div>
+</div>
 	<div></div>
 	<div></div>
 <footer align="center"> Producent for MyLittle Pony</footer>

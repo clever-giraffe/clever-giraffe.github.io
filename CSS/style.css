@@ -9,16 +9,13 @@ body#about{
 	background-size: 100%;
 	
 }
-div#nav_bar{
-	display: inline;
-}
-body div nav{
-	display: inline;
-	
+div.nav_bar{
+	width: 40%;
+	margin-left: 60%;
+	float: right;
 }
 body div nav ul{
 	list-style-type: none;
-	display: inline;
 }
 body div nav ul li{
 	display: inline;
@@ -50,8 +47,12 @@ aside.as_r{
 	float: right;
 }
 aside.as_r p{
-	color: #fff;
+	color: #ffff;
 	padding: 10px;
+}
+aside.bk_arrow{
+	border-style: none;
+	background-color: opacity;
 
 }
 .title_text{
@@ -72,7 +73,37 @@ aside.as_r p{
 	background-color: #9C72E0;
 	border-radius: 20px; 
 }
+#button:hover {
+color: white;
+}
 #licens{
 	font-size: 13px;
 	
 }
+iframe{
+	position: relative;
+	display: flex;
+}
+
+.drink{
+	animation-name: drink;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+}
+.drink::after {}
+.drink::before {}
+@keyframes drink {
+	from {
+	margin-top: 0;
+	}
+	to {
+	margin-top: 200px;
+	}
+}
+
+dialog {
+    background: rgba(255, 255, 255, 0.7);
+    width: 300px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+   }
