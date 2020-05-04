@@ -9,10 +9,14 @@ body#about{
 	background-size: 100%;
 	
 }
-div.nav_bar{
+body#about a:hover{
+	color: black;
+}
+.nav_bar{
 	width: 40%;
 	margin-left: 60%;
 	float: right;
+	display: inline;
 }
 body div nav ul{
 	list-style-type: none;
@@ -24,9 +28,9 @@ body div nav ul li{
 body div nav ul li a:hover {
 color: red;
 }
-a:hover {
-color: green;
-}
+a:hover {color: green;}
+a:visited{color: none;}
+
 aside{
 	padding-right: 20px;
 	padding-left: 20px;
@@ -60,6 +64,7 @@ aside.bk_arrow{
 	font-size: 30px;
 	text-shadow: 3px 10px 15px black;
     color: black;
+    padding-bottom: 20px;
 }
 #sel_bar{
 	width: 100px;
@@ -72,6 +77,7 @@ aside.bk_arrow{
 #button {
 	background-color: #9C72E0;
 	border-radius: 20px; 
+	font-family: 'Oswald', bold;
 }
 #button:hover {
 color: white;
@@ -82,23 +88,30 @@ color: white;
 }
 iframe{
 	position: relative;
-	display: flex;
+	display: relative;
 }
 
 .drink{
-	animation-name: drink;
-	animation-duration: 2s;
-	animation-timing-function: linear;
+	
+	height: 300px;
+	align-self: center;
+	animation: drink 5s infinite;
+	
 }
-.drink::after {}
-.drink::before {}
+/* .drink::after {
+	background-image: url(../Img/Old_F.gif);
+}background-color: red;
+	animation-duration: 5s;
+	animation-name: drink;
+	animation-timing-function: linear;
+	animation-direction: normal;
+.drink::before {
+	background-image: url(../Img/Old_F_.gif);
+	 */
+}
 @keyframes drink {
-	from {
-	margin-top: 0;
-	}
-	to {
-	margin-top: 200px;
-	}
+	from { margin-top: 0%; }
+	to { margin-top: 100%; }
 }
 
 dialog {
@@ -107,3 +120,14 @@ dialog {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
    }
+
+body#cont {
+	
+}
+.topBg{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: relative;
+	}

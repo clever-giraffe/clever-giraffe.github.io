@@ -27,52 +27,42 @@
 		<ul>
 			<li><a href="#title_text" title="">Title</a></li>
 			<li><a href="about.html" title="">About</a></li>
+			<li><a href="contact.html" title="">Contact</a></li>
 			<input type="text" name="search" placeholder="Чо надо??">
 			<button type="submit" value="search">S<img src=""></button>
+		</ul>
 	</nav>
-	<div><p></p>
-	</div>
 </div>
+
 	<header align="center">
 	<div><h1 class="title_text">Привет, Друг!<br> Что будем пить? </h1></div>
 	</header>
 <aside class="as_l"><p align="center"><i><b>Пейте с умом, Ребятки!) </b></i></p></aside>
 <aside class="as_r"><p><strong>Этот текст роли не играет.</strong> Ты всё равно его не будешь читать</p></aside>
 <main>
-	<div class="text" align="center">
-<div > 												<!-- Меню выбора напитка -->
-	<select name="drink">
+<div class="text" align="center">			<!-- Меню выбора напитка -->
+<form action="">
+	<div><select name="drink">
 		<option value="wine">Вина</option>
 		<option value="coctail" selected>Койктельчик</option>
 		<option value="shot">Покрепче</option>
 	</select>
-</div>
+	</div>
 	<div> 
 		<p >Добавить льда?<br>
-		<label><input type="radio"  name="ice" value="ice+" checked> Добавь</label>
-		<label><input type="radio" name="ice" value="ice-" disabled> Не надо</label></p><br>
+		<label><input type="radio"  name="ice" value="add" checked> Добавь</label>
+		<label><input type="radio" name="ice" value="none" > Не надо</label></p><br>
 		<span id="licens"><lablel><p><input type="checkbox" name="" value="accept">Принимаю условия <a href=""> клуба алкашей</a></p></lablel></span>
-		<span><button  id="button" type="submit" name="" href=""><strong>Наливай</strong></button></span>
+		<span><button  id="button" type="submit" name="" href="about.html"><strong>Наливай</strong></button></span>
 	</div> 
+</form>
 </div>	
-	<!-- <div class="img" align="center"><img src="Img/Old_F.gif" alt="" title="" width="300px"></div> -->
+
+<div align="center"> <img  class="drink" src="Img/2.png" alt="" title="" width="200px"> </div>
+
+
 <div>
 	<script type="text/javascript" src="JS/script.js"></script>
-		<div>
-			<picture title="wine">
-				<source src="" type=""><img src="Img/">
-				<source src="" type=""><img src="Img/">
-			</picture>
-			<picture title="coctail">
-				<source src="" type=""><img src="Img/">
-				<source src="" type=""><img src="Img/">
-			</picture>
-			<picture title="shot">
-				<source src="" type=""><img src="Img/">
-				<source src="" type=""><img src="Img/">
-			</picture>
-		</div>
-</div>
 	<div></div>
 	<div></div>
 <footer align="center"> Producent for MyLittle Pony</footer>
