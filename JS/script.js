@@ -1,4 +1,0 @@
-var drink;
-function() {
-	// body...
-}
