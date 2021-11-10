@@ -17,3 +17,18 @@ document.querySelector('body').classList.add('no-webp');
 }
 });
 //конец webp проверки
+
+$(document).ready(function(){
+    $('.title-banner__slider-content').slick({
+        dots: true,
+        dotsClass: 'slick-dots vertical-dots',
+        slidesToShow: 1,
+        vertical: true,
+        verticalSwiping: true,
+    });
+    $('.feedback_slider').slick({
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+  });
