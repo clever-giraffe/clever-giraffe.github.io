@@ -15,13 +15,13 @@
 </head>
 
 <body>
-    <header class="">
+    <header class="padding-container">
     <div class="inner ">
         <div class="logo"><img src="./img/logo.png" alt="logo"></div>
         <nav>
             <ul class="nav-menu">
                 <li class="nav-menu__item"><a href="">Головна</a></li>
-                <li class="nav-menu__item"><a href="">Продукти</a></li>
+                <li class="nav-menu__item"><a href="/product">Продукти</a></li>
                 <li class="nav-menu__item"><a href="">B2C</a></li>
                 <li class="nav-menu__item"><a href="">B2B</a></li>
                 <li class="nav-menu__item"><a href="">Новини</a></li>
@@ -33,8 +33,8 @@
         </nav>
         <div class="burger">
             <span class="burger__item"></span>
-            <span class="burger__item"></span>
-            <span class="burger__item"></span>
+            <!--<span class="burger__item"></span>-->
+            <!--<span class="burger__item"></span>-->
         </div>
     </div>
 </header>
@@ -43,46 +43,20 @@
         <div class="inner">
             <img src="./img/dark-box_decor_R.png" alt="" class="bg-img">
             <div class="title-banner__slider-content vertical-dots">
-                <div class="item">
+                <div class="title-banner__item">
                     <div class="slider-content__title">
                         <h1><span>Знайди вигідне рішення за секунду</span></h1>
                         <h3>Ми допоможемо тобі вирішити складні питання</h3>
-                        <a href="" class="button button_primary no-mob">Дізнатися деталі</a>
+                        <a href="" class="button button_primary"
+                           data-da="title-banner__item, 768, last">
+                            Дізнатися деталі
+                        </a>
                     </div>
                     <div class="banner__image">
                         <img src="./img/home-banner.png" alt="2">
                     </div>
                 </div>
-                <div class="item">
-                    <div class="slider-content__title">
-                        <h1><span>Знайди вигідне рішення за секунду</span></h1>
-                        <h3>Ми допоможемо тобі вирішити складні питання</h3>
-                        <a href="" class="button button_primary no-mob">Дізнатися деталі</a>
-                    </div>
-                    <div class="banner__image">
-                        <img src="./img/home-banner.png" alt="2">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="slider-content__title">
-                        <h1><span>Знайди вигідне рішення за секунду</span></h1>
-                        <h3>Ми допоможемо тобі вирішити складні питання</h3>
-                        <a href="" class="button button_primary no-mob">Дізнатися деталі</a>
-                    </div>
-                    <div class="banner__image">
-                        <img src="./img/home-banner.png" alt="2">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="slider-content__title">
-                        <h1><span>Знайди вигідне рішення за секунду</span></h1>
-                        <h3>Ми допоможемо тобі вирішити складні питання</h3>
-                        <a href="" class="button button_primary no-mob">Дізнатися деталі</a>
-                    </div>
-                    <div class="banner__image">
-                        <img src="./img/home-banner.png" alt="2">
-                    </div>
-                </div>
+
                 <!-- <a href="" class="button button_primary no-desk">Дізнатися деталі</a> -->
             </div>
         </div>
@@ -138,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="button button_primary">Всі продукти</a>
+            <a href="" class="button button_primary button_small">Всі продукти</a>
         </div>
     </section>
 
@@ -193,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="button button_primary">Всі послуги</a>
+            <a href="" class="button button_primary button_small">Всі послуги</a>
         </div>
     </section>
 
@@ -267,228 +241,6 @@
                     <h3>Ми працюємо з клієнтами з усього світу</h3>
                 </div>
                 <div class="feedback__row feedback_slider horizontal-dots">
-                    <div class="feedback__item">
-                        <div class="feedback__item-title">
-                            <div class="feedback__item-title__box">
-                                <div class="item-title__img-box"><img src="img/rewiew_user.png" alt=""></div>
-                                <div class="item-title__desc">
-                                    <div class="item-title__person">
-                                        <div class="name">Марія Іванівна</div>
-                                        <div class="company">CEO at ABC</div>
-                                    </div>
-                                    <div class="item-title__socials">
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/insta.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/telegram.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/fb.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi
-                            ut
-                            aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                    <div class="feedback__item">
-                        <div class="feedback__item-title">
-                            <div class="feedback__item-title__box">
-                                <div class="item-title__img-box"><img src="img/rewiew_user.png" alt=""></div>
-                                <div class="item-title__desc">
-                                    <div class="item-title__person">
-                                        <div class="name">Марія Іванівна</div>
-                                        <div class="company">CEO at ABC</div>
-                                    </div>
-                                    <div class="item-title__socials">
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/insta.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/telegram.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/fb.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi
-                            ut
-                            aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                    <div class="feedback__item">
-                        <div class="feedback__item-title">
-                            <div class="feedback__item-title__box">
-                                <div class="item-title__img-box"><img src="img/rewiew_user.png" alt=""></div>
-                                <div class="item-title__desc">
-                                    <div class="item-title__person">
-                                        <div class="name">Марія Іванівна</div>
-                                        <div class="company">CEO at ABC</div>
-                                    </div>
-                                    <div class="item-title__socials">
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/insta.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/telegram.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/fb.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi
-                            ut
-                            aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                    <div class="feedback__item">
-                        <div class="feedback__item-title">
-                            <div class="feedback__item-title__box">
-                                <div class="item-title__img-box"><img src="img/rewiew_user.png" alt=""></div>
-                                <div class="item-title__desc">
-                                    <div class="item-title__person">
-                                        <div class="name">Марія Іванівна</div>
-                                        <div class="company">CEO at ABC</div>
-                                    </div>
-                                    <div class="item-title__socials">
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/insta.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/telegram.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/fb.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi
-                            ut
-                            aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                    <div class="feedback__item">
-                        <div class="feedback__item-title">
-                            <div class="feedback__item-title__box">
-                                <div class="item-title__img-box"><img src="img/rewiew_user.png" alt=""></div>
-                                <div class="item-title__desc">
-                                    <div class="item-title__person">
-                                        <div class="name">Марія Іванівна</div>
-                                        <div class="company">CEO at ABC</div>
-                                    </div>
-                                    <div class="item-title__socials">
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/insta.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/telegram.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/fb.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi
-                            ut
-                            aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                    <div class="feedback__item">
-                        <div class="feedback__item-title">
-                            <div class="feedback__item-title__box">
-                                <div class="item-title__img-box"><img src="img/rewiew_user.png" alt=""></div>
-                                <div class="item-title__desc">
-                                    <div class="item-title__person">
-                                        <div class="name">Марія Іванівна</div>
-                                        <div class="company">CEO at ABC</div>
-                                    </div>
-                                    <div class="item-title__socials">
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/insta.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/telegram.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="social-item">
-                                            <a href="#">
-                                                <img src="./img/fb.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi
-                            ut
-                            aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
                     <div class="feedback__item">
                         <div class="feedback__item-title">
                             <div class="feedback__item-title__box">
